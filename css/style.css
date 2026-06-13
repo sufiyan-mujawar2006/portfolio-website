@@ -1,0 +1,165 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: #111A28;
+}
+.navbar
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.nav-link
+{
+    color: rgb(245, 245, 245);
+    font-family:'Calibri';
+}
+button
+{
+   color: white;
+   font-size: 20px;
+   margin-top: 10px;
+   margin-right:10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 5px;
+   border-color: rgb(84, 215, 84);
+}
+section
+{
+    height: 100vh;
+    padding: 50px 20px;
+    display:flex;
+    align-items: center;
+}
+.row
+{
+    width:100%;
+}
+.aboutMe
+{
+    color:rgb(225, 225, 225);
+    font-size: 18px;
+    text-align: justify;
+}
+.section-label-l
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.section-label-l span
+{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color:white;
+    background: #1b2b45;
+    padding:15px 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:6px;
+}
+.section-label
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.section-label span
+{
+    writing-mode: vertical-rl;
+    color:white;
+    background: #1b2b45;
+    padding:15px 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:6px;
+}
+.label-line
+{
+    writing-mode: vertical-rl;
+    background: white;
+    width:2px;
+    height:120px;
+    margin-top: 10px;
+    align-items: center;
+}
+.profile-img
+{
+    height:380px;
+    width: 100%;
+    border-radius: 40px;
+}
+.card
+{
+    background-color: #1A2332;
+    color: white;
+    text-align: center;
+    padding:20x;
+    border-radius: 15px;
+    border: 2px solid rgb(84, 215, 84);
+}
+.cardP
+{
+    background-color: #1A2332;
+    color:white;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding:20px;
+    height:100%;
+}
+.cardP p
+{
+    text-align:justify;
+    font-size: 15px;
+}
+.con p
+{
+    color:white;
+    text-align: justify;
+}
+.con h2
+{
+    color: white;
+}
+.icon a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+}
+@media (max-width: 768px){
+
+    section{
+        padding: 20px;
+    }
+
+    .navbar{
+        margin-top: 0;
+        background-color: #212529;
+    }
+
+    .section-label,
+    .section-label-l{
+        display: none;
+    }
+
+    .profile-img{
+        margin-top: 20px;
+    }
+
+    .btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+footer 
+{
+    text-align: center;
+    color: white;
+    background-color: #212529;
+    padding-bottom:2px ;
+    padding-top:1px;
+}
